@@ -1,5 +1,5 @@
 {% set name = "orange-widget-base" %}
-{% set version = "4.2.0" %}
+{% set version = "4.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7c3bcd1e32eeeed25bdc4e38925afc4813a05b54c9ddd11b54fcb76fd517e2f1
+  sha256: 10189f90570e40c4f353061b8b7845debcbabe9ef94d03d0d0f0aadd491613b1
 
 build:
   noarch: python
