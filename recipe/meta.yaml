@@ -1,5 +1,5 @@
 {% set name = "orange-widget-base" %}
-{% set version = "4.4.0" %}
+{% set version = "4.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6543623cb0aeba512fd743a4eda927fe1d5ce640653a2884802946a49d531a77
+  sha256: 34f770b9f9d4a0377e3d155f8c2aa0b9db7dc7b6d111864008c58462b942f650
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: LICENSE
-  summary: 'Base Widget for Orange Canvas'
+  summary: Base Widget for Orange Canvas
 
   description: |
     This project implements the base OWBaseWidget class and utilities for use
