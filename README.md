@@ -5,7 +5,7 @@ Home: https://github.com/biolab/orange-widget-base
 
 Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Base Widget for Orange Canvas
 
