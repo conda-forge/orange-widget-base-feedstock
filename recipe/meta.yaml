@@ -24,7 +24,7 @@ requirements:
     - pyqtgraph
     - anyqt
     - orange-canvas-core >=0.1.8a,<0.2a
-    - appnope  # [osx]
+    - appnope
 
 test:
   imports:
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/biolab/orange-widget-base
-  license: GPL-3.0
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE
   summary: Base Widget for Orange Canvas
