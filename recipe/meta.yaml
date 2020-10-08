@@ -10,7 +10,6 @@ source:
   sha256: 737642c0d480d5c53fc366fe82a6c481e076a9a5b5fffee7958c8f85ca69c55d
 
 build:
-  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -24,7 +23,7 @@ requirements:
     - pyqtgraph
     - anyqt
     - orange-canvas-core >=0.1.8a,<0.2a
-    - appnope
+    - appnope  # [osx]
 
 test:
   imports:
