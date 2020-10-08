@@ -5,9 +5,13 @@ Home: https://github.com/biolab/orange-widget-base
 
 Package license: GPL-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange-widget-base-feedstock/blob/master/LICENSE.txt)
 
 Summary: Base Widget for Orange Canvas
+
+Development: https://github.com/biolab/orange-widget-base/
+
+Documentation: https://orange-widget-base.readthedocs.io/
 
 This project implements the base OWBaseWidget class and utilities for use
 in Orange Canvas workflows.
