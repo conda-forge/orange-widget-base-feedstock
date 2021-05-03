@@ -1,5 +1,5 @@
 {% set name = "orange-widget-base" %}
-{% set version = "4.12.0" %}
+{% set version = "4.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7f0ac1701a6eff34b856144fb056c5017d6737be92f608df8843e396911e5e8f
+  sha256: 8d7827550413b9f4563503c0d9d38a0467c58a6b74e29a32ed80237840470a1a
 
 build:
   noarch: python
@@ -23,7 +23,8 @@ requirements:
     - matplotlib-base
     - pyqtgraph
     - anyqt
-    - orange-canvas-core >=0.1.8a,<0.2a
+    - orange-canvas-core >=0.1.20,<0.2a
+    - typing_extensions >=3.7.4.3
 
 test:
   imports:
