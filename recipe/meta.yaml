@@ -1,5 +1,5 @@
 {% set name = "orange-widget-base" %}
-{% set version = "4.13.0" %}
+{% set version = "4.13.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8d7827550413b9f4563503c0d9d38a0467c58a6b74e29a32ed80237840470a1a
+  sha256: 48d34904345b1779e757e525b0aa38d99cad25c0eb3aa3b0182a37bb14b110d7
 
 build:
   noarch: python
@@ -22,9 +22,11 @@ requirements:
     - python >=3.6
     - matplotlib-base
     - pyqtgraph
-    - anyqt
+    - anyqt >=0.0.13
     - orange-canvas-core >=0.1.20,<0.2a
     - typing_extensions >=3.7.4.3
+    # appnope is skipped here since if we add it package is not noarch: python anymore
+    # and appnope is used just optionally in tests
 
 test:
   imports:
