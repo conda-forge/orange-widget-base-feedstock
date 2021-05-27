@@ -22,9 +22,11 @@ requirements:
     - python >=3.6
     - matplotlib-base
     - pyqtgraph
-    - anyqt
+    - anyqt >=0.0.13
     - orange-canvas-core >=0.1.20,<0.2a
     - typing_extensions >=3.7.4.3
+    # appnope is skipped here since if we add it package is not noarch: python anymore
+    # and appnope is used just optionally in tests
 
 test:
   imports:
