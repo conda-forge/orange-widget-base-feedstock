@@ -1,11 +1,11 @@
-About orange-widget-base
-========================
+About orange-widget-base-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange-widget-base-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/biolab/orange-widget-base
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange-widget-base-feedstock/blob/main/LICENSE.txt)
 
 Summary: Base Widget for Orange Canvas
 
