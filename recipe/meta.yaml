@@ -23,8 +23,9 @@ requirements:
     - matplotlib-base
     - pyqtgraph
     - anyqt >=0.1.0
-    - orange-canvas-core >=0.1.30,<0.2a
+    - orange-canvas-core >=0.2.0,<0.3a
     - typing_extensions >=3.7.4.3
+    - importlib_resources
     # appnope is skipped here since if we add it package is not noarch: python anymore
     # and appnope is used just optionally in tests
 
